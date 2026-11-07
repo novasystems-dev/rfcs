@@ -1,18 +1,19 @@
-<p align="center">
-  <img src="assets/logo.svg" alt="Nova RFCs Logo" width="160" />
-</p>
+<div align="center">
 
-<h1 align="center">Nova Language RFCs & Evolution</h1>
+# 📜 Nova RFCs & Evolution
 
-<p align="center">
-  <b>RFC Proposals & Language Governance Process for the Nova Systems Programming Language</b>
-</p>
+**RFC Proposals & Language Governance Process for the Nova Systems Programming Language**
 
-<p align="center">
-  <a href="LICENSE"><img src="https://img.shields.io/badge/License-PolyForm%20Noncommercial-blueviolet?style=for-the-badge" alt="License" /></a>
-  <a href="https://github.com/novasystems-dev/nova"><img src="https://img.shields.io/badge/Nova-Systems%20Lang-00F0FF?style=for-the-badge" alt="Nova" /></a>
-  <img src="https://img.shields.io/badge/Status-Active%20RFCs-FF548F?style=for-the-badge" alt="Status" />
-</p>
+<br />
+
+[![License](https://img.shields.io/badge/license-PolyForm-a855f7?style=flat&labelColor=0f172a&logo=open-source-initiative&logoColor=white)](LICENSE)
+[![Nova](https://img.shields.io/badge/language-Nova_0.3.0-38bdf8?style=flat&labelColor=0f172a&logo=rust&logoColor=white)](https://github.com/novasystems-dev/nova)
+[![RFCs](https://img.shields.io/badge/status-active%20rfcs-10b981?style=flat&labelColor=0f172a&logo=git&logoColor=white)](text/)
+[![Ecosystem](https://img.shields.io/badge/ecosystem-10%20repos-f59e0b?style=flat&labelColor=0f172a&logo=github&logoColor=white)](https://github.com/novasystems-dev)
+
+<br />
+
+</div>
 
 ---
 
@@ -21,6 +22,15 @@
 - **RFC 0001**: Formal Refinement Types & Microsoft Z3 SMT Solver Integration.
 - **RFC 0002**: The Perceus Destructive In-Place Memory Reuse Specification.
 - **RFC 0003**: Capability-Gated Concurrency Primitives (`iso`, `val`, `ref`).
+
+---
+
+## 🏛️ RFC Submission Process
+
+1. Fork this repository.
+2. Copy `0000-template.md` to `text/0000-my-feature.md`.
+3. Fill out the architectural specifications, motivation, drawbacks, and alternatives.
+4. Submit a Pull Request to `novasystems-dev/rfcs` for review by the Nova Core Team.
 
 ---
 
